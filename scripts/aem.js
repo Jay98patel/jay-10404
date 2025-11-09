@@ -79,6 +79,7 @@ function sampleRUM(checkpoint, data) {
             sampleRUM.sendPing('error', timeShift(), errData);
           }
         });
+        //updated
 
         sampleRUM.baseURL = sampleRUM.baseURL || new URL(window.RUM_BASE || '/', new URL('https://ot.aem.live'));
         sampleRUM.collectBaseURL = sampleRUM.collectBaseURL || sampleRUM.baseURL;
